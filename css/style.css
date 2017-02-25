@@ -1,0 +1,89 @@
+/*内外边距*/
+html, body, div, p, ul, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, form, input, select, button, textarea, iframe, table, th, td {
+    margin: 0;
+    padding: 0;
+}
+/*字体*/
+body{font:12px/21px '宋体';_font-family:'宋体' !important; text-align:center;}
+
+/*包裹 IE8居中*/
+#wrap{text-align:left;}
+
+/*ul*/
+ul{ list-style:none;}
+
+/*a*/
+a{ text-decoration:none;}
+
+/*img*/
+img{border:0 none;}
+
+#content{
+    width: 320px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.header{
+    width: 320px;
+    height: 45px;
+    background: #393A3E;
+}
+.header h2{
+    font-family: 'Microsoft YaHei';
+    font-size: 18px;
+    color: #ffffff;
+    float: left;
+    font-weight: normal;
+    padding-left: 15px;
+    line-height:45px;
+}
+
+.header i{
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 45px;
+}
+
+.header .icon1{
+    float: right;
+    padding-right: 28px;
+}
+
+.header .icon2{
+    float: right;
+    padding-right: 43px;
+}
+
+.footer{
+    height: 60px;
+    width: 320px;
+    background: #FCFCFC;
+    border-top: 1px solid #efefef;
+    bottom:0;
+    position:absolute
+}
+
+.footer ul{
+    overflow: hidden;
+}
+
+.footer ul li{
+    float: left;
+    width: 80px;
+    text-align: center;
+}
+.footer ul li a.active{
+    color: red;
+}
+.footer ul li a i{
+    font-size: 22px;
+    display: block;
+    padding-top: 10px;
+}
+.footer ul li a p{
+    font-size: 14px;
+    display: block;
+    padding-top: 4px;
+    font-family: 'Microsoft YaHei';
+}

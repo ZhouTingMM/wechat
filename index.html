@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="App">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="content">
+    <div class="header">
+        <h2>微信</h2>
+        <p class="icon1"><i class="icon-plus"></i></p>
+        <p class="icon1"><i class="icon-search"></i></p>
+    </div>
+
+    <div ui-view="">
+
+    </div>
+    <div class="footer">
+        <ul>
+            <li><a href="#/message"><i class="icon-comment-alt"></i><p>微信</p></a></li>
+            <li><a href="#/address"><i class="icon-group"></i><p>通讯录</p></a></li>
+            <li><a href="#/find"><i class="icon-star-empty"></i><p>发现</p></a></li>
+            <li><a href="#/my"><i class="icon-user"></i><p>我</p></a></li>
+        </ul>
+    </div>
+
+</div>
+
+
+<script src="js/angular.min.js"></script>
+<script src="js/angular-ui-router.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
